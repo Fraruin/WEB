@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Profile</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,Tahoma,sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#74ebd5,#9face6);
+    min-height:100vh;
+    overflow-y:scroll;
+}
+
+header{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card{
+    width:850px;
+    background:rgba(255,255,255,.2);
+    backdrop-filter:blur(12px);
+    border-radius:25px;
+    padding:40px;
+    text-align:center;
+    color:white;
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+}
+
+.card img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    margin-bottom:20px;
+}
+
+.card h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.card p{
+    font-size:18px;
+    opacity:.95;
+}
+
+section{
+    width:80%;
+    margin:60px auto;
+}
+
+.box{
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    margin-bottom:40px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.box h2{
+    color:#3b5bdb;
+    margin-bottom:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+td{
+    padding:15px;
+    border-bottom:1px solid #ddd;
+    font-size:18px;
+}
+
+td:first-child{
+    font-weight:bold;
+    width:220px;
+}
+
+.bio{
+    line-height:2;
+    font-size:18px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:white;
+    font-size:18px;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="card">
+
+<img src="profile.webp" alt="Profile">
+
+<h1>ภูมิภัทร สมานสวน</h1>
+
+<p>Personal Profile Website</p>
+
+</div>
+
+</header>
+
+<section>
+
+<div class="box">
+
+<h2>ข้อมูลส่วนตัว</h2>
+
+<table>
+
+<tr>
+<td>ชื่อ-นามสกุล</td>
+<td>ภูมิภัทร สมานสวน</td>
+</tr>
+
+<tr>
+<td>ส่วนสูง</td>
+<td>178 เซนติเมตร</td>
+</tr>
+
+<tr>
+<td>น้ำหนัก</td>
+<td>71.4 กิโลกรัม</td>
+</tr>
+
+<tr>
+<td>วันเกิด</td>
+<td>15 พฤษภาคม 2551</td>
+</tr>
+
+<tr>
+<td>การศึกษา</td>
+<td>โรงเรียนกาฬสินธุ์พิทยาสรรพ์</td>
+</tr>
+
+<tr>
+<td>บุคลิกภาพ</td>
+<td>INFP Type 9</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="box">
+
+<h2>ประวัติ</h2>
+
+<p class="bio">
+
+สวัสดีครับ ผมชื่อ <b>ภูมิภัทร สมานสวน</b>
+เป็นผู้ที่มีความสนใจด้านการเขียนโปรแกรม การออกแบบเว็บไซต์
+และการพัฒนาตนเองอยู่เสมอ
+
+ผมสำเร็จการศึกษาจากโรงเรียนกาฬสินธุ์พิทยาสรรพ์
+มีบุคลิกภาพแบบ INFP Type 9
+เป็นคนชอบความสงบ รักการเรียนรู้
+มีความคิดสร้างสรรค์ และชอบทำงานที่ได้ใช้จินตนาการ
+
+ในเวลาว่าง ผมชอบศึกษาความรู้ใหม่ ๆ
+ฝึกเขียนโปรแกรม HTML, CSS และ JavaScript
+รวมถึงสนใจการออกแบบเว็บไซต์ให้มีความสวยงามและใช้งานง่าย
+
+</p>
+
+</div>
+
+<div class="box">
+
+<h2>ทักษะ</h2>
+
+<table>
+
+<tr>
+<td>HTML</td>
+<td>★★★★☆</td>
+</tr>
+
+<tr>
+<td>CSS</td>
+<td>★★★★☆</td>
+</tr>
+
+<tr>
+<td>JavaScript</td>
+<td>★★★☆☆</td>
+</tr>
+
+<tr>
+<td>การออกแบบเว็บไซต์</td>
+<td>★★★★☆</td>
+</tr>
+
+<tr>
+<td>การทำงานเป็นทีม</td>
+<td>★★★★☆</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="box">
+
+<h2>เป้าหมาย</h2>
+
+<p class="bio">
+
+ต้องการพัฒนาทักษะด้านการเขียนโปรแกรม
+สร้างเว็บไซต์ที่มีคุณภาพ
+เรียนรู้เทคโนโลยีใหม่ ๆ
+และนำความรู้ไปประยุกต์ใช้ในการทำงานในอนาคต
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Personal Profile | Phumipat Samansuan
+
+</footer>
+
+</body>
+</html>
